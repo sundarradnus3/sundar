@@ -1,54 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Sundar Personal Portfolio Page</title>
-  </head>
-  <body>
-    <nav>
-      <div class="nav__logo"><a href="#">SR <span>Maker'</span>s</a></div>
-    </nav>
-    <div class="contact">
-      <a href="tel:9361293963"><i class='bx bx-phone-call'></i></a>
-      <div class="bx bx-menu" id="menu-icon"></div>
-    </div>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO </title>
+    <link rel="stylesheet" href="styles.css">
 
+    <!-- box icon link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Rimix icon link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header -->
     <header>
-      <div class="section__container header__container">
-        <p><span>Hello</span> I'm</p>
-        <h1>SUNDAR S</h1>
-        <h2 class="section__title">VideoEditor <span> GraphicDesigner.</span></h2>  
-        <p>
-          Welcome to my "Video Editor, Graphic Designer & Web Developer" Portfolio.
-          I'm Sundar S, I have 1+year experience in my freelancing career. 
-          To produce high-quality content, stay updated with trends, and collaborate
-          with clients, consistently delivering impactful designs that enhance brand
-          identity and drive success. I'm confident that our collaboration will bring
-          a positive return on your time and money.
-        </p>
-        <div class="action__btns">
-          <button class="btn">Download CV</button>
-          <button class="btn">Get in Touch</button>
-          <a href="https://projectsyou.carrd.co/" class="video">
-            <div class="play">
-              <i class="ri-play-fill"></i>
-            </div>
-            <span>Watch My Video</span>
-          </a>
-        </div>
-      </div>
+      <nav>
+        <div class="nav__logo"><a href="#">SR <span>Maker'</span>s</a></div>
+      </nav>
+        <ul class="nav-links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#service">SERVICE</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            
+        </ul>
+        <div class="h-right">
+            <a href="tel: 9361293963 "><i class='bx bx-phone-call'></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>  
     </header>
-    
+    </body>
+</html>
+
+
+    <!-- home section  -->
+    <section id="home"></section>
+    <section class="home">
+        <div class="home-text"> <br>
+          <div class="section__container header__container">
+            <p><span>Hello</span> I'm</p>
+            <h1>SUNDAR S</h1>
+            <h2 class="section__title">Video Editor <span> Graphic Designer.</span></h2> 
+            <p>
+              Welcome to my "Video Editor, Graphic Designer & Web Developer" Portfolio.
+              I'm Sundar S, I have 1+year experience in my freelancing career. 
+              To produce high-quality content, stay updated with trends, and collaborate
+              with clients, consistently delivering impactful designs that enhance brand
+              identity and drive success. I'm confident that our collaboration will bring
+              a positive return on your time and money.
+            </p>
+                <div class="icons">
+                <a href="https://www.instagram.com/sundar__radnus?igsh=MzZncmV6cjZpZWJp"><i class='bx bxl-instagram'></i></a>
+                <a href="https://wa.me/9361293963?text="><i class='bx bxl-whatsapp'></i></a>
+                <a href="mailto:sundar.s19aes51@gmail.com"><i class='bx bxl-gmail'></i></a>
+                <a href="https://www.linkedin.com/in/sundar-s-009ab523b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <div class="main-btn">
+                <a href="https://projectsyou.carrd.co/" class="btn">Play</a>
+                <!-- <a href="https://projectsyou.carrd.co/" class="video">
+                  <div class="play">
+                    <i class="ri-play-fill"></i>
+                  </div>
+                </a> -->
+                <a href="https://matrix.to/#/!bflgLTwFGfvQEXewQb:matrix.org?via=matrix.org" class="btn">Get in Touch</a>
+                
+            </div>
+        </div>
+        <!-- <div class="home-img">
+            <img src="sundar (2).jpg">
+        </div> -->
+        <div class="scroll">
+            <img src="arrow (2).png" alt="">
+        </div>
+    </section>
+
+       
+<body>
+  <section id="service">
     <section class="service">
       <div class="section__container service__container">
+        <br>
         <p class="section__subtitle">What I Offer!</p>
         <h2 class="section__title"><span>My</span> Services</h2>
         <div class="service__grid">
@@ -86,9 +119,12 @@
         </div>
       </div>
     </section>
-
-    
+  </section>
+  </body> 
+    <br>
+    <br>
     <footer>
+      <section id="contact">
       <div class="section__container footer__container">
         <div class="footer__content">
           <h2 class="section__title">Contact <span>Me!</span></h2>
@@ -122,7 +158,7 @@
           <textarea cols="30" rows="10" placeholder="Your Idea" name="message"></textarea>
           <button type="submit" class="btn">Send Message</button>
           </form>
-          
+        </section>
           
       </div>
     </footer>
