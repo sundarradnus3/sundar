@@ -395,11 +395,15 @@ section {
   .para{
     font-size: 10px;
     font-weight: 300px;
-    display: flex;
+    display:grid ;
     text-align: justify;
     font-family: sans-serif;
   } 
-  
+  .home-img {
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+}
   section {
       padding: 60px 5%;
   }
