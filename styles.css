@@ -307,13 +307,13 @@ section {
     font-size: 20px;
     font-weight: 300;
   }
-  .para{
+  /* .para{
     font-size:10px;
     font-weight: 300;
     display: flex;
     text-align: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  }
+  } */
   .image-container {
       width: 150px;
       height: 150px;
@@ -353,13 +353,13 @@ section {
   .scroll {
       display: none;
   }
-  .para{
+  /* .para{
     font-size: 10px;
     font-weight: 300;
     display: flex;
     text-align: justify;
     font-family: sans-serif;
-  }
+  } */
   section {
       padding: 70px 7%;
 
@@ -391,13 +391,14 @@ section {
   header {
       padding: 13px 5%;
   }
+
   .para{
     font-size: 10px;
-    font-weight: 300;
+    font-weight: 300px;
     display: flex;
     text-align: justify;
     font-family: sans-serif;
-  }
+  } 
   
   section {
       padding: 60px 5%;
